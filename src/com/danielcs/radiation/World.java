@@ -39,9 +39,9 @@ public class World {
     }
 
     private void setRadiation(int demand) {
-        if (demand > 0) {
+        if (demand >= 3) {
             radiation = Radiation.ALFA;
-        } else if (demand < 0) {
+        } else if (demand <= -3) {
             radiation = Radiation.DELTA;
         } else {
             radiation = Radiation.NONE;
@@ -58,6 +58,7 @@ public class World {
             radiationDemand = plants.stream()
                     .map(Plant::getRadiationDemand)
                     .reduce(0, (a, b) -> a + b);
+            System.out.println("DAY: " + i + " RADIATION: " + radiation + "\nStatus: " + plants);
             setRadiation(radiationDemand);
         }
         return plants.stream()

@@ -16,6 +16,5 @@ public class Puffancs extends Plant {
         if (foodLeft <= 0 || foodLeft > 10) {
             isAlive = false;
         }
-
     }
 }

@@ -16,15 +16,8 @@ public abstract class Plant {
         this.foodLeft = foodLeft;
     }
 
-    public Plant() {
-    }
-
     public String getName() {
         return name;
-    }
-
-    public int getFoodLeft() {
-        return foodLeft;
     }
 
     public boolean isAlive() {
