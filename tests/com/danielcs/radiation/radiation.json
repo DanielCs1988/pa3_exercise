@@ -1,0 +1,25 @@
+{
+  "rounds": 10,
+  "plants": [
+    {
+      "name": "Devourer",
+      "type": "a",
+      "foodLeft": 7
+    },
+    {
+      "name": "Thinboi",
+      "type": "d",
+      "foodLeft": 5
+    },
+    {
+      "name": "Tinyboi",
+      "type": "p",
+      "foodLeft": 4
+    },
+    {
+      "name": "Fuccboi",
+      "type": "d",
+      "foodLeft": 3
+    }
+  ]
+}

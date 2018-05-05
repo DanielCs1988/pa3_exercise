@@ -1,4 +1,4 @@
-package com.danielcs;
+package com.danielcs.util;
 
 import com.danielcs.utils.DataReader;
 import com.danielcs.utils.TestGame;
@@ -12,7 +12,7 @@ class DataReaderTest {
 
     @Test
     void testGetData() {
-        DataReader reader = new DataReader("./tests/com/danielcs/test.json");
+        DataReader reader = new DataReader("./tests/com/danielcs/util/test.json");
         TestGame testGame = reader.getData(TestGame.class);
         assertEquals(10, testGame.getRounds());
         assertEquals("Daniel", testGame.getPeople().get(0).getName());
