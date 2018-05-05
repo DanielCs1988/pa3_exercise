@@ -1,0 +1,8 @@
+{
+    "rounds": 10,
+    "people": [
+        {"name": "Daniel", "age": 29},
+        {"name": "Jack", "age": 19},
+        {"name": "Nicole", "age": 23}
+    ]
+}

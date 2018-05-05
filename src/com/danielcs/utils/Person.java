@@ -1,4 +1,4 @@
-package com.danielcs;
+package com.danielcs.utils;
 
 public class Person {
 
@@ -28,9 +28,10 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "TestGame{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
     }
+
 }
