@@ -1,0 +1,40 @@
+{
+  "plan": "124313",
+  "kids": [
+    {
+      "type": "Berserker",
+      "name": "Ede",
+      "satisfaction": 1
+    },
+    {
+      "type": "Sorcerer",
+      "name": "Kati",
+      "satisfaction": 4
+    },
+    {
+      "type": "Bard",
+      "name": "Zsuzsa",
+      "satisfaction": 2
+    },
+    {
+      "type": "Berserker",
+      "name": "Emese",
+      "satisfaction": 2
+    },
+    {
+      "type": "Berserker",
+      "name": "Emil",
+      "satisfaction": 3
+    },
+    {
+      "type": "Sorcerer",
+      "name": "Karcsi",
+      "satisfaction": 1
+    },
+    {
+      "type": "Bard",
+      "name": "Zoli",
+      "satisfaction": 3
+    }
+  ]
+}

@@ -32,9 +32,9 @@ public abstract class Creature {
 
     @Override
     public String toString() {
-        return "Creature{" +
+        return "Kid{" +
                 "name='" + name + '\'' +
-                ", waterLeft=" + waterLeft +
+                ", satisfaction=" + waterLeft +
                 ", distance=" + distance +
                 '}';
     }
