@@ -1,0 +1,25 @@
+{
+  "weatherForecast": "sccrrrssc",
+  "creatures": [
+    {
+      "name": "Vándor",
+      "type": "s",
+      "waterLeft": 4
+    },
+    {
+      "name": "Séta",
+      "type": "w",
+      "waterLeft": 7
+    },
+    {
+      "name": "Csúszó",
+      "type": "p",
+      "waterLeft": 12
+    },
+    {
+      "name": "Sikló",
+      "type": "p",
+      "waterLeft": 10
+    }
+  ]
+}
