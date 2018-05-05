@@ -1,0 +1,25 @@
+{
+  "treatment": "3120131",
+  "plants": [
+    {
+      "name": "V102",
+      "type": "Flower",
+      "size": 3
+    },
+    {
+      "name": "B223",
+      "type": "Kush",
+      "size": 4
+    },
+    {
+      "name": "K15",
+      "type": "Coca Plant",
+      "size": 2
+    },
+    {
+      "name": "K18",
+      "type": "Coca Plant",
+      "size": 1
+    }
+  ]
+}

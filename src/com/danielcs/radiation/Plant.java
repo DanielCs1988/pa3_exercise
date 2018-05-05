@@ -32,7 +32,7 @@ public abstract class Plant {
     public String toString() {
         return "Plant{" +
                 "name='" + name + '\'' +
-                ", foodLeft=" + foodLeft +
+                ", size=" + foodLeft +
                 ", radiationDemand=" + radiationDemand +
                 '}';
     }
