@@ -19,7 +19,7 @@ class RadiationTest {
     @Test
     void start() {
         List<String> survivors = world.start();
-        String expected = "[Devourer, Thinboi, Tinyboi, Fuccboi]";
+        String expected = "[Devourer, Tinyboi]";
         assertEquals(expected, survivors.toString());
     }
 }
