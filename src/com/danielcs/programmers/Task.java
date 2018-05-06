@@ -39,9 +39,10 @@ public class Task {
 
     public void changeHoursLeft(int amount) {
         hoursLeft += amount;
-        if (hoursLeft < 1) {
-            owner.removeTask(this);
-        }
+    }
+
+    public boolean isDone() {
+        return hoursLeft < 1;
     }
 
     @Override

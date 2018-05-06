@@ -1,5 +1,7 @@
 package com.danielcs.programmers;
 
+import java.util.Iterator;
+
 public class Junior extends Programmer {
 
     public Junior(String name) {
@@ -22,13 +24,7 @@ public class Junior extends Programmer {
     }
 
     @Override
-    public void workForAnHour() {
-        if (isFinished()) {
-            return;
-        }
-        if (currentTasks.isEmpty()) {
-            currentTasks.add(tasks.remove(0));
-        }
-        currentTasks.get(0).changeHoursLeft(-1);
+    protected int getWorkCapacity() {
+        return 1;
     }
 }

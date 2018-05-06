@@ -1,15 +1,15 @@
 {
   "programmers": [
     {
-      "name": "Sarah",
+      "name": "JUNIOR",
       "type": "junior"
     },
     {
-      "name": "Wolverine",
+      "name": "SENIOR",
       "type": "senior"
     },
     {
-      "name": "Judith",
+      "name": "ARCHITECT",
       "type": "architect"
     }
   ],
