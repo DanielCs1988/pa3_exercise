@@ -1,0 +1,58 @@
+{
+  "programmers": [
+    {
+      "name": "Sarah",
+      "type": "junior"
+    },
+    {
+      "name": "Wolverine",
+      "type": "senior"
+    },
+    {
+      "name": "Judith",
+      "type": "architect"
+    }
+  ],
+  "tasks": [
+    {
+      "difficulty": 1,
+      "length": 5,
+      "programmerIndex": 0
+    },
+    {
+      "difficulty": 2,
+      "length": 10,
+      "programmerIndex": 2
+    },
+    {
+      "difficulty": 2,
+      "length": 2,
+      "programmerIndex": 1
+    },
+    {
+      "difficulty": 3,
+      "length": 8,
+      "programmerIndex": 2
+    },
+    {
+      "difficulty": 1,
+      "length": 2,
+      "programmerIndex": 1
+    },
+    {
+      "difficulty": 1,
+      "length": 4,
+      "programmerIndex": 0
+    },
+    {
+      "difficulty": 3,
+      "length": 7,
+      "programmerIndex": 1
+    },
+    {
+      "difficulty": 2,
+      "length": 6,
+      "programmerIndex": 2
+    }
+  ]
+}
