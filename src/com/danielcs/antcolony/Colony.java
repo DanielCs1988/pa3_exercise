@@ -33,6 +33,7 @@ public class Colony {
         if (isValidCoord(newCoord.x, newCoord.y)) {
             grid[ant.getPosition().y][ant.getPosition().x] = null;
             grid[newCoord.y][newCoord.x] = ant;
+            ant.setPosition(newCoord);
         }
     }
 
@@ -92,7 +93,8 @@ public class Colony {
             }
             System.out.println();
         }
-        Thread.sleep(1000);
+        System.out.println();
+        Thread.sleep(100);
     }
 }
 
@@ -104,5 +106,19 @@ class Coordinate {
     public Coordinate(int x, int y) {
         this.x = x;
         this.y = y;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Coordinate)) return false;
+        Coordinate that = (Coordinate) o;
+        return x == that.x &&
+                y == that.y;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(x, y);
     }
 }

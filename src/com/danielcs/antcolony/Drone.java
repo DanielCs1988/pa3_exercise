@@ -47,6 +47,9 @@ public class Drone extends Ant {
             } else if (queenY > position.y && coord.y > position.y) {
                 colony.changeCoords(this, coord);
             }
+            if (coord == position) {
+                break;
+            }
         }
     }
 

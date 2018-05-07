@@ -19,6 +19,10 @@ public abstract class Ant {
         return position;
     }
 
+    public void setPosition(Coordinate position) {
+        this.position = position;
+    }
+
     public abstract void move();
 
 }
